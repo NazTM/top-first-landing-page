@@ -15,10 +15,14 @@ body {
 
 .hero-section {
  background-color: #1f2937;
- padding: 10px;
+ padding: 50px;
  display: flex;
  justify-content: space-evenly;
  align-items: center;
+}
+
+.header {
+  padding: 0;
 }
 
 .gallery {
@@ -32,7 +36,7 @@ body {
  }
 
 .quote {
-  background-color: whitesmoke;
+  background-color: #e5e7eb;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -40,7 +44,7 @@ body {
 }
 
 .cta {
-  background-color: #3882f6;
+  background-color: #f9faf8;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -64,6 +68,7 @@ body {
 
 header, footer {
   background-color: #1f2937;
+  margin: 0;
 }
 
 header h1 {
@@ -71,16 +76,23 @@ header h1 {
   color: #f9faf8;
 }
 
-.navdiv {
+/* .navbar {
   display: flex;
-  align-items: center; 
+  align-items: flex-start;
+} */
+
+.navdiv {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .navdiv li {
   display: inline-block;
   margin: 15px;
-  font-weight: bold;
+  font-weight: light;
   padding: 10px;
 }
 
@@ -107,6 +119,7 @@ button {
   padding: 10px 15px;
   border: 3px solid white;
   color: white;
+  font-size: 15px;
   border-radius: 5px;
 }
 
@@ -147,7 +160,6 @@ footer {
 }
 
 .subtext {
-  font-family: roboto;
   color: #1f2937;
   font-size: 15px;
   font-weight: 400;
@@ -174,5 +186,19 @@ footer {
 }
 
 .quote h3 {
+  color: #1f2937;
   padding-left: 50%;
+}
+
+.border-round {
+  border: 3px transparent;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
 }
