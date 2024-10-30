@@ -61,6 +61,10 @@ body {
   font-weight: 900;
 }
 
+.hero-secondary-text {
+  font-weight: 300;
+}
+
 .hero-secondary-text, .header-link-text {
   font-size: 18px;
   color: #e5e7eb;
@@ -114,10 +118,19 @@ footer p {
   justify-content: center;
 }
 
-button {
+.cta button {
   background-color: #3882f6;
   padding: 10px 15px;
   border: 3px solid white;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.hero-section button {
+  background-color: #3882f6;
+  padding: 10px 15px;
+  border: 3px transparent;
   color: white;
   font-size: 15px;
   border-radius: 5px;
