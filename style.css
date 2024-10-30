@@ -110,7 +110,7 @@ footer {
 
 footer p {
   display: flex;
-  padding: 15px;
+  padding: 30px;
   justify-content: center;
 }
 
@@ -191,14 +191,25 @@ footer {
 }
 
 .border-round {
+  display: flex;
   border: 3px transparent;
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 30px;
+  padding: 0 100px;
   margin: 30px;
   display: flex;
   border-radius: 5px;
   justify-content: space-between;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
+}
+
+.cta-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-text h2, p {
+  margin:  0;
 }
